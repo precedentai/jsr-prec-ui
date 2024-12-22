@@ -1,5 +1,5 @@
 {
-  "name": "@prec-ui",
+  "name": "@prec-ui/components",
   "version": "0.0.4",
   "license": "MIT",
   "exports": "./mod.js"
