@@ -1,6 +1,6 @@
 {
-  "name": "@prec-ui/resizable-handle",
-  "version": "0.1.0",
+  "name": "@prec-ui",
+  "version": "0.0.4",
   "license": "MIT",
   "exports": "./mod.js"
 }
