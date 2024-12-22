@@ -2,5 +2,5 @@
     "name": "@my-first-jsr-package/test",
     "version": "0.0.3",
     "license": "MIT",
-    "exports": "mod.jsx"
+    "exports": "mod.js"
   }
