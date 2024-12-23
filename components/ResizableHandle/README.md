@@ -17,7 +17,7 @@ A customizable drag handle component for resizable interfaces.
 import { ResizableHandle } from '@prec-ui/components';
 
 const YourComponent = () => (
-  <ResizableCustomHandle 
+  <ResizableHandle 
     hoverColor="#3F77AF"
     height="100%"
     // ... other props
