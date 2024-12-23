@@ -3,20 +3,19 @@ import { Stack, Divider } from "@mui/material";
 import { DragIndicatorOutlined } from "@mui/icons-material";
 
 const ResizableCustomHandle = ({
-    width = '0px',
-    height = '100%',
-    hoverColor = '#3F77AF',
-    topMargin = '0px',
-    bottomMargin = '0px'
+    marginTop='0px',
+    hoverColor='#3F77AF',
+    borderWidth='5px',
+    height='100%',
 }) => {
     const dividerSx = {
-        marginTop: topMargin,
+        marginTop,
         width,
         zIndex: 1000,
         '&:hover, &:active': {
             '&::before, &::after': {
                 borderColor: hoverColor,
-                borderWidth: '5px'
+                borderWidth
             },
         },
         display: 'flex',
