@@ -10,7 +10,7 @@ const ResizableCustomHandle = ({
 }) => {
     const dividerSx = {
         marginTop,
-        width,
+        width: '0px',
         zIndex: 1000,
         '&:hover, &:active': {
             '&::before, &::after': {
