@@ -1,7 +1,8 @@
-import React from 'react'
-import { Stack, Divider } from '@mui/material'
-import { DragIndicatorOutlined } from '@mui/icons-material'
-import { SxProps, Theme } from '@mui/system'
+import React from "react";
+import { Stack, Divider } from "@mui/material";
+import { DragIndicatorOutlined } from "@mui/icons-material";
+import type { SxProps } from "@mui/system";
+import type { Theme } from "@mui/material/styles/createTheme";
 
 interface ResizableCustomHandleProps {
     width?: string;
