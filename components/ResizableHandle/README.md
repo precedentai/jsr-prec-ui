@@ -1,4 +1,4 @@
-# ResizableCustomHandle
+# ResizableHandle
 
 A customizable drag handle component for resizable interfaces.
 
@@ -14,7 +14,7 @@ A customizable drag handle component for resizable interfaces.
 ## Usage
 
 ```jsx
-import { ResizableCustomHandle } from '@yourusername/components';
+import { ResizableHandle } from '@prec-ui/components';
 
 const YourComponent = () => (
   <ResizableCustomHandle 
