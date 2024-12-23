@@ -11,7 +11,7 @@ const ResizableCustomHandle = ({
 }) => {
     const dividerSx = {
         marginTop: topMargin,
-        width: '0px',
+        width,
         zIndex: 1000,
         '&:hover, &:active': {
             '&::before, &::after': {
@@ -27,7 +27,7 @@ const ResizableCustomHandle = ({
     return (
         <Stack
             sx={{
-                height: '100%',
+                height
             }}
             alignItems="center"
         >
