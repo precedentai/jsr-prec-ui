@@ -1,4 +1,4 @@
-import ResizableHandle from './components/ResizableHandle/ResizableHandle.tsx';
+import ResizableHandle from './components/ResizableHandle/ResizableHandle.jsx';
 
 
 
