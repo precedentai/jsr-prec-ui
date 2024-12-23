@@ -2,7 +2,7 @@ import React from "react";
 import { Stack, Divider } from "@mui/material";
 import { DragIndicatorOutlined } from "@mui/icons-material";
 
-const ResizableCustomHandle = ({
+const ResizableHandle = ({
     marginTop='0px',
     hoverColor='#3F77AF',
     borderWidth='5px',
@@ -47,4 +47,4 @@ const ResizableCustomHandle = ({
     )
 }
 
-export default ResizableCustomHandle
+export default ResizableHandle
