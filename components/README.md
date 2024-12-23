@@ -1,6 +1,6 @@
 # @prec-ui/components
 
-A collection of reusable React components built with Material-UI and TypeScript.
+A collection of reusable React components built with Material-UI.
 
 ## Installation
 
@@ -18,17 +18,13 @@ npx jsr add @prec-ui/components
 
 All components are available as named exports:
 
-```tsx
+```jsx
 import { ResizableCustomHandle, ComponentB, ComponentC } from '@prec-ui/components';
 
 const App = () => (
   <ResizableCustomHandle />
 );
 ```
-
-## TypeScript Support
-
-All components include full TypeScript support with proper type definitions.
 
 ## License
 
