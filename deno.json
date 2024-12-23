@@ -2,16 +2,5 @@
   "name": "@prec-ui/components",
   "version": "0.0.5",
   "license": "MIT",
-  "exports": "./mod.ts",
-  "description": "A comprehensive collection of reusable React components built with Material-UI",
-  "runtime": {
-    "deno": "^1.37",
-    "node": ">=16"
-  },
-  "imports": {
-    "react": "npm:react@18.3.1",
-    "@mui/material": "npm:@mui/material@6.2.1",
-    "@mui/icons-material": "npm:@mui/icons-material@6.2.1",
-    "@mui/system": "npm:@mui/system@6.2.1"
-  }
+  "exports": "./mod.ts"
 }
