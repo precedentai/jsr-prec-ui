@@ -10,7 +10,7 @@ npx jsr add @prec-ui/components
 
 ## Available Components
 
-- [ResizableCustomHandle](./ResizableCustomHandle/README.md) - A customizable drag handle for resizable interfaces
+- [ResizableCustomHandle](./ResizableHandle/README.md) - A customizable drag handle for resizable interfaces
 - [Component B](./ComponentB/README.md) - Description
 - [Component C](./ComponentC/README.md) - Description
 
@@ -19,10 +19,12 @@ npx jsr add @prec-ui/components
 All components are available as named exports:
 
 ```jsx
-import { ResizableCustomHandle, ComponentB, ComponentC } from '@prec-ui/components';
+import { ResizableHandle, ComponentB, ComponentC } from '@prec-ui/components';
 
 const App = () => (
-  <ResizableCustomHandle />
+  <ResizableHandle
+    ...props
+ />
 );
 ```
 
