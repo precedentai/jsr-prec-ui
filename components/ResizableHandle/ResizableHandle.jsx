@@ -4,7 +4,7 @@ import { DragIndicatorOutlined } from "@mui/icons-material";
 
 const ResizableHandle = ({
     marginTop='0px',
-    hoverColor='#3F77AF',
+    hoverColor='#232941',
     borderWidth='5px',
     height='100%',
 }) => {
@@ -39,7 +39,7 @@ const ResizableHandle = ({
                 <Stack>
                     <DragIndicatorOutlined 
                         color="action" 
-                        sx={{ width: '20px', color: hoverColor }} 
+                        sx={{ width: '20px' }} 
                     />
                 </Stack>
             </Divider>
